@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Voyage Slider | GSAP</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'>
+<link rel="stylesheet" href="../css/card.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="app">
+
+	<div class="cardList">
+		<button class="cardList__btn btn btn--left">
+			<div class="icon">
+				<svg>
+					<use xlink:href="#arrow-left"></use>
+				</svg>
+			</div>
+		</button>
+
+		<div class="cards__wrapper">
+			<div class="card current--card">
+				<div class="card__image">
+					<img src="../img/navytext.png" alt="" />
+				</div>
+			</div>
+
+			<div class="card next--card">
+				<div class="card__image">
+					<img src="../img/green post.png" alt="" />
+				</div>
+			</div>
+
+			<div class="card previous--card">
+				<div class="card__image">
+					<img src="../img/bunny company3.png" alt="" />
+				</div>
+			</div>
+		</div>
+
+		<button class="cardList__btn btn btn--right">
+			<div class="icon">
+				<svg>
+					<use xlink:href="#arrow-right"></use>
+				</svg>
+			</div>
+		</button>
+	</div>
+
+	<div class="infoList">
+		<div class="info__wrapper">
+			<div class="info current--info">
+				<h1 class="text name">01</h1>
+				<h4 class="text location">Logo Design</h4>
+				<p class="text description">They라는 이름의 남성브랜드의 로고를 리 디자인하였습니다.<br />스펠링으로 보여줬을때는 깔끔하고 모던한 느낌을 주기위해<br />곡선이 아닌 직선과 대각선을 이용하여 제작하였습니다.</p>
+			</div>
+
+			<div class="info next--info">
+				<h1 class="text name">02</h1>
+				<h4 class="text location">Brand Design</h4>
+				<p class="text description">nara park라는 사슴공원을 리 디자인 하였습니다.<br />사슴과 자연에 어울리는 색으로 조화를 이루었습니다.</p>
+			</div>
+
+			<div class="info previous--info">
+				<h1 class="text name">03</h1>
+				<h4 class="text location">Package Design</h4>
+				<p class="text description">Bunny company사의 보리 맥주를 디자인하였습니다.<br />
+				회사의 이름인 bunny와 보리의 barley를 조합하여 제작하였습니다.
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="app__bg">
+		<div class="app__bg__image current--image">
+			<img src="../img/navytext.png" alt="" />
+		</div>
+		<div class="app__bg__image next--image">
+			<img src="../img/green post.png" alt="" />
+		</div>
+		<div class="app__bg__image previous--image">
+			<img src="../img/bunny company3.png" alt="" />
+		</div>
+	</div>
+</div>
+
+<div class="loading__wrapper">
+	<div class="loader--text">Loading...</div>
+	<div class="loader">
+		<span></span>
+	</div>
+</div>
+
+
+<svg class="icons" style="display: none;">
+	<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+		<polyline points='328 112 184 256 328 400'
+					 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+	</symbol>
+	<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+		<polyline points='184 112 328 256 184 400'
+					 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+	</symbol>
+</svg>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- partial -->
+  <script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script><script  src="../js/script.js"></script>
+
+</body>
+</html>

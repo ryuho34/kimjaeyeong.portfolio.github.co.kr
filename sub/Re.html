@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <link href="../lib/slick/slick-theme.css" rel="stylesheet"/>
+    <link href="../lib/slick/slick.css" rel="stylesheet"/>
+    <link href="../css/re.css" rel="stylesheet"/>
+</head>
+<body>
+      <script src="../lib/jquery-3.6.0.min.js"></script>
+      <script src="../lib/jquery-ui.min.js"></script>
+      <script src="../lib/slick/slick.js"></script>
+      <script>
+        
+      $(function(){/*.in-container .header_m1 ul li:nth-of-type(7)을 누르면 메뉴창이 열림 */
+      $('.in-container .header_m1 ul li:nth-of-type(7)').click(function(){
+        $('.right-menubar').css({
+             'margin-left':'-410px',
+             'transition' : '2s'});
+         });
+        });
+        
+      $(function(){/*.right-menubar .rmtab p img을 누르면 메뉴창이 닫힘 */
+      $('.right-menubar .rmtab p').click(function(){
+        $('.right-menubar').css({
+             'margin-left':'410px',
+             'transition' : '2s'});
+         });  
+         });  
+      $(function(){
+      $('.movie_view p').click(function(){
+        $('.movie_view').css({
+             'display':'none'});
+         });  
+         });
+         $('.movie_view p').on('click', function() {
+    $('.YouTube video player')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+});  
+      </script>
+      <!-- -----------------------------------------------제이쿼리 스크립트 -->
+      <!-- <div class="sub001">
+        <img src="img/hold.png"/>
+        <p><a href="">고든램지<br />언차티드</a></p>
+      </div> -->
+      
+      <div class="movie_view">
+        
+        <span><iframe width="640" height="360" id="video-player" src="https://www.youtube.com/embed/kJ4CYbCGhLA?autoplay=1&mutu=1?enablejsapi=1&version=3&playerapiid=ytplayer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
+
+        <!-- <span><iframe width="700" height="400" src="https://www.youtube.com/embed/VVebrFdjdk4?autoplay=1&mutu=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span> -->
+        
+        <p><i class="fas fa-times-circle"></i></p>
+      </div>
+    <div class="in-center">
+        <section class="skewdBox">
+          <div class="in-container">
+            <h2>내셔널지오그래픽 트래블러</h2>
+            <p>8월호, natural and people ㅣ 자연과 인간</p>
+          </div>
+        </section>
+        <section class="section2">
+          <div class="in-container">
+            <div class="header_m1">
+              <p><a href=""><img src="../img/NG.png"/></a></p>
+              <div>
+                <ul>
+                  <li>BRAND</li>
+                  <li>CHANNEL</li>
+                  <li>VIDEO</li>
+                  <li>NEWS</li>
+                  <li>MAGAZINES</li>
+                  <li>STORE</li>
+                  <li><i class="fas fa-align-right"></i></li>
+                  <!-- <li><i class="fas fa-sign-out-alt"></i></li> -->
+                </ul>
+                <div class="kat2"><span><img src="../img/kat6.png"/></span></div>
+                <div class="kat"><span><img src="../img/kat5.png"/></span></div>
+              </div>
+            </div>
+            <div class="right-menubar">
+              <div class="rmtab">
+                <p><img src="../img/NG3.png"/></p>
+              </div>
+              <div class="rmtab2">
+              <ul>
+                  <li><a href="">BRAND</a></li>
+                  <li><a href="">CHANNEL</a></li>
+                  <li><a href="">VIDEO</a></li>
+                  <li><a href="">NEWS</a></li>
+                  <li><a href="">MAGAZINES</a></li>
+                  <li><a href="">STORE</a></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 428번부터 max-640px -->
+      </div>
+      <section class="main_12">
+      <div class="main001">
+          
+          <div class="twohead">
+              <div class="main_in001">
+                  <p><a href=""><img src="../img/ho.jpg"/></a></p>
+              </div>
+          
+              <div class="main_in002">
+            
+                  <p><strong>Channel</strong><strong>:Animal</strong></p>
+                  <p><a href=""><img src="../img/b2.jpg"/></a></p>
+            
+              </div>
+          </div>
+
+
+          <div class="main_in003">
+            <p><a href=""><img src="../img/b1.jpg"/></a></p>
+            
+          </div>
+      </div>
+      <div class="text_a0">
+        <p class="text_a1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam a error iure libero ducimus veniam deleniti quo, suscipit quas debitis in aspernatur minus! Vel, ullam. Fuga minima aspernatur voluptate modi Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum praesentium mollitia neque laboriosam harum aperiam rem asperiores autem nobis recusandae, alias reiciendis aliquid ratione. Voluptatibus velit dolore eveniet blanditiis Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, soluta! Quod soluta velit necessitatibus iusto rerum nihil enim? Qui quo possimus dicta velit doloremque et ipsum explicabo eum cum provident.lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, numquam quisquam corrupti temporibus quaerat perspiciatis quod, perferendis molestias adipisci dolor aliquam neque quibusdam doloremque, accusantium sit tempore sint hic facere. Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt exercitationem voluptates voluptatibus et, molestias qui. Cumque dolorum, voluptatibus rerum reprehenderit possimus officia nostrum aut soluta at error sequi maiores repudiandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum delectus, pariatur assumenda cum voluptates est, sunt, natus libero!
+        </p>
+      </div>
+      </section>
+      <section class="secondery">
+        <div class="main002">
+          <div class="main_in01">
+            <p><strong>Magazines</strong></p>
+            <p><strong>:various</strong></p>
+            <div>
+              <div class="mzimg01"><p><img src="../img/mz4.jpg"/></p></div>
+              <div class="mzimg">
+              <span><img src="../img/mz5.jpg"/></span>
+              <span><img src="../img/mz2.jpg"/></span>
+              <span><img src="../img/mz3.jpg"/></span>
+              <span><img src="../img/mz8.jpg"/></span>              
+              <span><img src="../img/mz7.jpg"/></span>              
+              <span><img src="../img/mz6.jpg"/></span>              
+              </div>
+              
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="third00">
+          <div class="third">
+        </div>
+      </section>
+      
+</body>
+</html>

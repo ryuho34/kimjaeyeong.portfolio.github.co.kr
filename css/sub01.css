@@ -1,0 +1,31 @@
+@charset "utf-8";
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  li{list-style:none;}
+  a{text-decoration:none;
+  display:block;
+  color:#333;}
+
+  .sub01{
+      max-width:1440px;
+      margin:0 auto;
+      max-height:5000px;
+      height:100%;
+  }
+  .sub_in{
+      background-color: #3A589E;
+      max-width:1440px;
+      max-height:50px;
+      line-height:50px;
+  }
+  .sub_in p img{
+      max-width:50px;
+      float:left;
+  }
+  .sub01 img{
+      max-width:1440px;
+      width:100%;
+  }
+  
