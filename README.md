@@ -1,1 +1,1 @@
-# kport..github.co.kr
+# kport.github.co.kr
